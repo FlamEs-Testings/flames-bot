@@ -37,8 +37,8 @@ module.exports = {
 
   DASHBOARD: {
     enabled: true, // enable or disable dashboard
-    baseURL: "http://localhost:8080", // base url
-    failureURL: "http://localhost:8080", // failure redirect url
+    baseURL: "https://k8ok8gcwcskk8wcogo4w0k8c.theflames.site", // base url
+    failureURL: "https://k8ok8gcwcskk8wcogo4w0k8c.theflames.site", // failure redirect url
     port: "8080", // port to run the bot on
   },
 
