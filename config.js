@@ -3,7 +3,7 @@ module.exports = {
   SUPPORT_SERVER: "https://discord.gg/W3Xb8Nvj", // Your bot support server
   PREFIX_COMMANDS: {
     ENABLED: true, // Enable/Disable prefix commands
-    DEFAULT_PREFIX: "*", // Default prefix for the bot
+    DEFAULT_PREFIX: "f!", // Default prefix for the bot
   },
   INTERACTIONS: {
     SLASH: true, // Should the interactions be enabled
@@ -85,7 +85,7 @@ module.exports = {
   },
 
   MODERATION: {
-    ENABLED: false,
+    ENABLED: true,
     EMBED_COLORS: {
       TIMEOUT: "#102027",
       UNTIMEOUT: "#4B636E",
@@ -105,12 +105,12 @@ module.exports = {
   PRESENCE: {
     ENABLED: true, // Whether or not the bot should update its status
     STATUS: "online", // The bot's status [online, idle, dnd, invisible]
-    TYPE: "WATCHING", // Status type for the bot [PLAYING | LISTENING | WATCHING | COMPETING]
-    MESSAGE: "Playing Flames Network", // Your bot status message
+    TYPE: "PLAYING", // Status type for the bot [PLAYING | LISTENING | WATCHING | COMPETING]
+    MESSAGE: "Flames Network", // Your bot status message
   },
 
   STATS: {
-    ENABLED: false,
+    ENABLED: true,
     XP_COOLDOWN: 5, // Cooldown in seconds between messages
     DEFAULT_LVL_UP_MSG: "{member:tag}, You just advanced to **Level {level}**",
   },
